@@ -10,7 +10,7 @@ export default defineConfig({
   clearScreen: false,
   server: {port: 1337},
   plugins: [
-    routify(),
+    routify({}),
     svelte({
       emitCss: true,
       compilerOptions: {dev: !production},
